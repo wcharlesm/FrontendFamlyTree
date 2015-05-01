@@ -1,0 +1,40 @@
+<!-- ($firstName and $middleName and $lastName and $surname and $commonName and $birthday and $dateOfDeath) -->
+
+<div>
+	<span>First Name: </span>
+	<span><input type="text" ng-model="person.firstName" size="25" /></span>
+</div>
+
+<div>
+	<span>Middle Name: </span>
+	<span><input type="text" ng-model="person.middleName" size="25" /></span>
+</div>
+
+<div>
+	<span>Last Name: </span>
+	<span><input type="text" ng-model="person.lastName" size="25" /></span>
+</div>
+
+<div>
+	<span>Surname: </span>
+	<span><input type="text" ng-model="person.surname" size="25" /></span>
+</div>
+
+<div>
+	<span>Nickname: </span>
+	<span><input type="text" ng-model="person.commonName" size="25" /></span>
+</div>
+
+<div>
+	<span>Birthday: </span>
+	<span><input type="text" ng-model="person.birthday" size="25" /></span>
+</div>
+
+<div>
+	<span>Date Of Death: </span>
+	<span><input type="text" ng-model="person.dateOfDeath" size="25" /></span>
+</div>
+
+<div>
+	<input type="button" value="Submit Person" ng-click="submitPerson()" />
+</div>

@@ -1,0 +1,9 @@
+[27-Apr-2015 16:19:48 CST6CDT] PHP Notice:  Undefined variable: nf in /home/wmagee/php_includes/dev/Note.php on line 40
+[27-Apr-2015 16:19:48 CST6CDT] PHP Fatal error:  Cannot access empty property in /home/wmagee/php_includes/dev/Note.php on line 40
+[27-Apr-2015 16:22:00 CST6CDT] PHP Fatal error:  Call to undefined method ReadOnlyPersonFactory::getAllPeopleDictionary() in /home/wmagee/public_html/familytree/dev/rest/PersonSearch.php on line 32
+[27-Apr-2015 16:28:54 CST6CDT] PHP Warning:  Missing argument 1 for SqlPersonFactory::search(), called in /home/wmagee/php_includes/dev/Person.php on line 336 and defined in /home/wmagee/php_includes/dev/Person.php on line 392
+[27-Apr-2015 16:28:54 CST6CDT] PHP Notice:  Undefined variable: where in /home/wmagee/php_includes/dev/Person.php on line 396
+[27-Apr-2015 16:32:01 CST6CDT] PHP Fatal error:  Call to undefined method ReadOnlyRelationFactory::getRelationTypes() in /home/wmagee/public_html/familytree/dev/rest/RelationTypes.php on line 26
+[27-Apr-2015 16:37:49 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmagee/php_includes/dev/dbManager.php:88) in /home/wmagee/public_html/familytree/dev/rest/RelationTypes.php on line 31
+[27-Apr-2015 16:57:34 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmagee/php_includes/dev/dbManager.php:88) in /home/wmagee/public_html/familytree/dev/rest/Relation.php on line 75
+[27-Apr-2015 16:57:34 CST6CDT] PHP Notice:  Undefined variable: response in /home/wmagee/public_html/familytree/dev/rest/Relation.php on line 77
